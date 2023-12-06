@@ -8,7 +8,8 @@
 Thanks to h4de5, Martinnj and KaSroka
 
 ## PHP Code changed to Estia 
-
+<details><summary>PHP Code</summary>
+	
 ```php
 <?php
 
@@ -107,6 +108,9 @@ Thanks to h4de5, Martinnj and KaSroka
 	echo '//////////////////////////////////////////////////////////' . PHP_EOL;
 	?>
 ```
+
+</details>
+
 ## C
 
 ### B
