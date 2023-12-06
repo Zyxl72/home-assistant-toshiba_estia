@@ -372,3 +372,196 @@ i could not really identify these, it seems they show again some of the temperat
 }
 
 ```
+### Get Device Settings
+
+#### Request
+
+`GET https://mobileapi.toshibahomeaccontrols.com/api/Estia/GetConsumerProgramSettings?consumerId=<consumer-id>`
+
+#### Result
+
+
+```json
+{
+  "ResObj" : [
+	{
+    "ConsumerId" : "<consumer-id>",
+    "ACGroupProgramSettings" : [
+		{
+        "ACProgramSettingList" : [
+			{
+            "ACId" : "<ac-id>",
+            "ConsumerId" : NULL,
+            "ACUniqueId" : "device-unique-id>",
+            "ACName" : "<Estia-Name>",
+            "ACModel" : "4",
+            "Type" : NULL,
+            "dstStatus" : "OFF",
+            "timeZone" : "W. Europe Standard Time",
+            "schedulerStatus" : "01",
+            "ACStateDataForProgram" : "08980000030684840100000306484801000000048686908f3000ff010000988448484e52",
+            "MeritFeature" : "3f",
+            "PartitionKey" : NULL,
+            "FlapSetting" : NULL,
+            "OpeMode" : NULL,
+            "Cool_temp_max" : NULL,
+            "Cool_temp_min" : NULL,
+            "Heat_temp_max" : NULL,
+            "Heat_temp_min" : NULL,
+            "Dry_temp_max" : NULL,
+            "Dry_temp_min" : NULL,
+            "Auto_temp_max" : NULL,
+            "Auto_temp_min" : NULL,
+            "Frost_protect_temp" : NULL,
+            "SystemConfig" : NULL,
+            "programSetting" : [
+				{
+				"Sunday" : [
+					{
+					"p1" : "07000898030684ffffffffff",
+					"p2" : "110008ff02ffffffffffffff",
+					"p3" : "16000c9803067affffffffff",
+					"p4" : "220008ff02ffffffffffffff"
+					}
+				],
+				"Monday" : [
+					{
+					"p1" : "07000c9803067affffffffff",
+					"p2" : "113008ff0206ffffffffffff",
+					"p3" : "2000089803067affffffffff",
+					"p4" : "220008ff0206ffffffffffff"
+					}
+				],
+				"Tuesday" : [ 
+					{
+					"p1" : "06150898030684ffffffffff",
+					"p2" : "073008ff02ffffffffffffff",
+					"p3" : "16000c9803067affffffffff",
+					"p4" : "220008ff02ffffffffffffff"
+					}
+				],
+				"Wednesday" : [
+					{
+					"p1" : "0700089803067affffffffff",
+					"p2" : "093008ff0206ffffffffffff",
+					"p3" : "15000c9803067affffffffff",
+					"p4" : "220008ff02ffffffffffffff"
+					}
+				],
+				"Thursday" : [
+					{
+					"p1" : "06150898030684ffffffffff",
+					"p2" : "073008ff02ffffffffffffff",
+					"p3" : "16000c9803067affffffffff",
+					"p4" : "220008ff02ffffffffffffff"
+					}
+				],
+				"Friday" : [
+					{
+					"p1" : "07000898030684ffffffffff",
+					"p2" : "110008ff02ffffffffffffff",
+					"p3" : "16000c9803067affffffffff",
+					"p4" : "220008ff02ffffffffffffff",
+					}
+				],
+				"Saturday" : [
+					{
+					"p1" : "07000898030684ffffffffff",
+					"p2" : "110008ff02ffffffffffffff",
+					"p3" : "16000c9803067affffffffff",
+					"p4" : "220008ff02ffffffffffffff"
+					}
+				],
+				"time" : NULL,
+				"dst" : [
+					{
+					"Time" : "1711850400",
+					"Status" : "ON"
+					}
+				]
+				}
+			]
+			}
+			],
+        "PartitionKey" : NULL,
+        "GroupId" : "F5B3CAFA-7B6D-40C4-8C45-09A29654D697",
+        "ConsumerId" : "C4A5EBB5-F433-4B8C-856C-C19F93D44038",
+        "GroupName" : "All ESTIA",
+        "Type" : NULL,
+        "programSetting" : [
+			{
+			"Sunday" : [
+				{
+				"p1" : "",
+				"p2" : "",
+				"p3" : "",
+				"p4" : ""
+				}
+			],
+			"Monday" : [
+				{
+				"p1" : "",
+				"p2" : "",
+				"p3" : "",
+				"p4" : ""
+				}
+			],
+			"Tuesday" : [
+				{
+				"p1" : "",
+				"p2" : "",
+				"p3" : "",
+				"p4" : ""
+				}
+			],
+			"Wednesday" : [
+				{
+				"p1" : "",
+				"p2" : "",
+				"p3" : "",
+				"p4" : ""
+				}
+			],
+			"Thursday" : [
+				{
+				"p1" : "",
+				"p2" : "",
+				"p3" : "",
+				"p4" : ""
+				}
+			],
+			"Friday" : [
+				{
+				"p1" : "",
+				"p2" : "",
+				"p3" : "",
+				"p4" : ""
+				}
+			],
+			"Saturday" : [
+				{
+				"p1" : "",
+				"p2" : "",
+				"p3" : "",
+				"p4" : ""
+				}
+			]
+			}
+        ],
+        "time" : "",
+        "dst" : [
+			{	
+          "Time" : "",
+          "Status" : "",
+			}
+		]
+    }
+    ]
+	}
+  ],
+  "IsSuccess" : true,
+  "Message" : "Success",
+  "StatusCode" : "Success",
+}
+
+```
