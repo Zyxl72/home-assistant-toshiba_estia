@@ -9,7 +9,7 @@ Thanks to h4de5, Martinnj and KaSroka
 
 ## PHP Code changed to Estia 
 
-´´´php
+```php
 <?php
 
 	$username = "<USERNAME>";
