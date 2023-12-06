@@ -129,6 +129,50 @@ Thanks to h4de5, Martinnj and KaSroka
 #### Result
 
 ```json
-
+{
+  "ResObj" : [
+	{
+      "GroupId" : "<group-id>",
+      "GroupName" : "All ESTIA",
+      "ConsumerId" : "<consumer-id>",
+      "TimeZone" : "W. Europe Standard Time",
+      "ACList" : [
+		{
+          "Id" : "<device-id",
+          "DeviceUniqueId" : "<device-unique-id>",
+          "Name" : "BMD",
+          "ACModelId" : "4",
+          "Description" : "AW_<device-unique-id>",
+          "CreatedDate" : "9/11/2023 1:13:55 PM",
+          "ACStateData" : "0898000003067a7a01000003064848010000000485858b8a2e00ff010000987a48484e52",
+          "FirmwareUpgradeStatus" : "",
+          "URL" : "",
+          "File" : "",
+          "MeritFeature" : "3f",
+          "AdapterType" : "0",
+          "FirmwareVersion" : "2.2.00",
+          "FirmwareCode" : "0002",
+          "Control" : "3",
+          "WaterRoom" : "2",
+          "DHW_max" : "b6",
+          "DHW_min" : "70",
+          "Zone1_wt_heat_max" : "a2",
+          "Zone1_wt_heat_min" : "48",
+          "Zone2_wt_heat_max" : "a2",
+          "Zone2_wt_heat_min" : "48",
+          "Zone1_2_wt_cool_max" : "52",
+          "Zone1_2_wt_cool_min" : "2e",
+          "Zone1_2_rt_heat_max" : "5a",
+          "Zone1_2_rt_heat_min" : "44",
+          "Zone1_2_rt_cool_max" : "5a",
+          "Zone1_2_rt_cool_min" : "44"
+        }
+      ]
+    }
+  ]
+  "IsSuccess" : true,
+  "Message" : "Success",
+  "StatusCode" : "Success"
+}
 ```
 
