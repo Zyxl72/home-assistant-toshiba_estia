@@ -305,9 +305,9 @@ i could not really identify these, it seems they show again some of the temperat
  {
   "ResObj" : [
 	{
-    "Id" : "6e9b1a14-0452-4d4a-b9d7-b07a00da0eee",
-    "ACId" : "B228C0AC-BC32-4EAB-9E52-6F85D9B31671",
-    "ACDeviceUniqueId" : "09b44045-df5f-4e2f-b19c-1487b291cebd",
+    "Id" : "<device-id>",
+    "ACId" : "<ac-id>",
+    "ACDeviceUniqueId" : "<device-unique-id>",
     "ACStateData" : "0898000003068484010000030648480100000004909097962f00ff010000988448484e52",
     "FirmwareVersion" : "2.2.00",
     "FirmwareUpgradeStatus" : "",
@@ -355,13 +355,13 @@ i could not really identify these, it seems they show again some of the temperat
     "Fcu" : [
 	{
       	"model_name" : "1101XWHT6W-E",
-      	"serial_number" : "P202271D0277",
+      	"serial_number" : "XXXXXXXXXXXX",
       	"firmware_info" : "2500",
       	"eeprom_info" : ""
 	}
     ],
-    "ConsumerMasterId" : "951afcd3991165057306a4197e84293a4870914a05325100f479d139bd9c7f28",
-    "PartitionKey" : "09b44045-df5f-4e2f-b19c-1487b291cebd",
+    "ConsumerMasterId" : "<master-id>",
+    "PartitionKey" : "<somekey>",
     "IsHeatQuantityActivated" : false,
     "timeZone" : "W. Europe Standard Time"
 	}
