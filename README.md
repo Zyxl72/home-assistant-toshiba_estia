@@ -239,6 +239,53 @@ Heating coil active for heating
 
 i could not really identify these, it seems they show again some of the temperature values and maybe pump activity
 
+### Programmsettings
+
+similar to the AC State the program settings for the scheduler are as follows
+
+Sample:<br>
+	"p1" : "07000898030684ffffffffff",<br>
+	"p2" : "110008ff02ffffffffffffff",<br>
+	"p3" : "16000c9803067affffffffff",<br>
+	"p4" : "220008ff02ffffffffffffff"
+
+#### Digits
+
+#### 1,2,3 and 4
+
+Time 
+- 0700 - 07:00 
+  
+#### 5 and 6
+
+Hot Water Active
+- 0c - active
+- 08 - inactive
+  
+#### 7 and 8
+
+Water Temperature
+- 98 - as in temperature table means 60°C
+
+#### 9 and 10
+
+Heating active
+- 03 - active
+- 02 - inactive
+  
+#### 11 and 12
+
+unknown
+
+#### 13 and 14
+
+Heating temperature
+- 7a - as in temperature table means 45°C
+
+#### rest
+
+the rest seems to be filled with bits / bytes "ff"
+ 
 
 ## JSON Result
 
