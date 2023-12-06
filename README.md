@@ -113,9 +113,15 @@ Thanks to h4de5, Martinnj and KaSroka
 
 ## Result interpretation
 
-### Tempature to code value tranlation table
+### Temperature to code value translation table
 
 ![Estia_Temp_Code1](https://github.com/Zyxl72/home-assistant-toshiba_estia/assets/87240400/7f9af3cb-3935-48aa-8733-8abfbec3241e)
+
+### Schedulerstatus
+
+- 01 - active
+- 02 - paused
+
 
 ### ACStateData
 
