@@ -537,8 +537,8 @@ the rest seems to be filled with bits / bytes "ff"
 			}
 			],
         "PartitionKey" : NULL,
-        "GroupId" : "F5B3CAFA-7B6D-40C4-8C45-09A29654D697",
-        "ConsumerId" : "C4A5EBB5-F433-4B8C-856C-C19F93D44038",
+        "GroupId" : "<Group-Id>",
+        "ConsumerId" : "<Consumer-Id>",
         "GroupName" : "All ESTIA",
         "Type" : NULL,
         "programSetting" : [
