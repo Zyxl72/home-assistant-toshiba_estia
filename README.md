@@ -150,7 +150,7 @@ Water Active
   
 #### 3 and 4
 
-Water Temperature
+Defined Hot Water Temperature (target temperature)
 - 98 - as in temperature table means 60°C
 
 #### 5 and 6
@@ -177,7 +177,7 @@ unknown
 
 #### 13 and 14
 
-Heating temperature
+Heating target temperature
 - 7a - as in temperature table means 45°C
 
 #### 15 and 16
